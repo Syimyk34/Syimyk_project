@@ -1,12 +1,26 @@
 
-.counter {
-  display: flex;
-  padding: 20px;
+.container{
+   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: normal;
+}
+
+.counter{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   width: 500px;
+   height: 550px;
+   background-color: rgba(51, 238, 131, 0.47);
+
+
 }
 button{
-  background: blue;
-  height: 30px;
-  border-radius: 5px;
+
+  display: inline-block;
+  margin: 25px 25px;
+  padding: 5px 5px;
+  border-radius: 10px;
+background: linear-gradient(to right, #F6EFD2, #CEAD78);
 }
+
